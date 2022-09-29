@@ -6,33 +6,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Acessibilidade na Web</title>
   <link rel="stylesheet" href="style.css">
-  <!-- Parte dos FavIcons -->
-  <link rel="apple-touch-icon" sizes="57x57" href="fav.icons/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="fav.icons/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="fav.icons/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="fav.icons/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="fav.icons/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="fav.icons/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="fav.icons/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="fav.icons/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="fav.icons/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="fav.icons/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="fav.icons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="fav.icons/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="fav.icons/favicon-16x16.png">
-  <link rel="manifest" href="/manifest.json">
-  <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-  <meta name="theme-color" content="#ffffff">
-  }
-
+   <!-- Parte dos FavIcons -->
+<link rel="apple-touch-icon" sizes="57x57" href="fav.icons/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="fav.icons/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="fav.icons/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="fav.icons/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="fav.icons/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="fav.icons/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="fav.icons/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="fav.icons/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="fav.icons/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="fav.icons/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="fav.icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="fav.icons/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="fav.icons/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+  
 </head>
 
 <body>
   <header>
 
   </header>
-
+  <!-- Parte do Menu Dropdown -->
   <div id="drop1">
     <nav class="dropmenuu">
       <ul>
@@ -68,44 +67,19 @@
   <div id="home1">
     <a id="icone"><img src="inteligencia-artificial.png" width="40em"></a>
   </div>
+  <!-- Parte do ínicio (mensagem, explicação) -->
   <div id="welcome1">
     <h1 id="h1gradient">Acessibilidade na Web,</h1>
-    <h4 id="normal1">a sua importância e a diferença que faz na vida das pessoas.</h4>
-    <br>
+    <h4 id="normal1"> algo que deveria receber sua devida atenção nos dias de hoje. </h4>
   </div>
-  <div class="sumario">
-    <div class="sumario-block">
-      <div class="sumario-block2">
-
-        <h3>Acesse aqui o sumário da página:</h3>
-        <a href="#T1">1. Todo ser humano merece saber o que há aqui</a>
-        <br><br>
-        <a href="#T2">2. A importância da Web como um todo</a>
-        <br><br>
-        <a href="#T3">3. Procedimentos arriscados podem ser o futuro</a>
-        <br><br>
-        <a href="#T4">4. A tecnologia é a nossa principal aliada</a>
-        <br><br>
-        <a href="#T5">5. O cuidado por uma página a torna acessivel</a>
-        <br><br>
-        <a href="#T6">6. Como pessoas com deficiência utilizam a Web?</a>
-
-      </div>
-    </div>
+  <!-- BOX 01, BOX 02 (IMAGENS) -->
+  <div class="container01">
+    <div class="box01"></div>
+    <div class="box02"></div>
   </div>
-
-  <div id="container">
-
-    <div class="row01">
-      <div class="box">
-        <img src="imagens/deficiente-visual1.png" alt="Homem com deficiência visual utilizando celular.">
-        <img id="T1" src="imagens/deficiente-visual2.png" alt="Deficiente visual utilizando smarthphone.">
-      </div>
-    </div>
-
-  </div>
-  <div class="container2">
-    <div class="box2">
+  <!-- BOX 03 (TEXTO) -->
+  <div class="container03">
+    <div class="box03">
       <h4>Todo ser humano merece saber o que há aqui</h4>
       <p>O significafo de Acessibilidade na Web é que pessoas com deficiência podem usar a web, isso leva a pessoas com
         deficiência poderem perceber, entender, navegar, interagir e contribuir para a web. Para as pessoas com
@@ -113,20 +87,20 @@
         em todos os seus aspectos; e para todas as pessoas, em diferentes contextos, pode proporcionar maior conforto e
         facilidade de uso.</p>
       <br>
-      <p id="T2"> Como dito pelos representantes da W3S no começo de 2021, garantir a acessibilidade na web é permitir
-        que
+      <p> Como dito pelos representantes da W3S no começo de 2021, garantir a acessibilidade na web é permitir que
         qualquer indivíduo, utilizando qualquer tecnologia de navegação, visite qualquer espaço da Web e obtenha
         completo entendimento das informações contidas nele, além de ter total habilidade de interação. Isso significa
         tornar todos os serviços, assuntos e publicações tão fáceis de serem utilizados por todas as pessoas, que até
         esqueceremos que há diferenças.</p>
       <br>
-      <p>Saiba mais na: <a class="disk2"
+      <p>Saiba mais na: <a style="color: var(--cor-link);"
           href="https://www.w3c.br/pub/Materiais/PublicacoesW3C/cartilha-w3cbr-acessibilidade-web-fasciculo-I.html"
           target="_blank">castilha oficial</a>.</p>
     </div>
   </div>
-  <div class="container2">
-    <div class="box2">
+  <!-- BOX "04" (TEXTO) -->
+  <div class="container03">
+    <div class="box03">
       <h4>A importância da Web como um todo</h4>
       <p> Está cada vez mais difícil encontrar um campo da atividade humana em que não haja, de algum modo, influência
         da web, seja na educação, na formação profissional, no trabalho, na informação e sob as mais diversas condições
@@ -134,16 +108,14 @@
         acesso a uma coisa só, mas a uma infinidade de aspectos importantes da vida e do cotidiano de cada pessoa.</p>
     </div>
   </div>
-  <div class="container">
-    <div class="row01">
-      <div class="box box7">
-        <img src="imagens/elon-musk1.png" alt="Elon Musk em uma apresentação">
-        <img id="T3" src="imagens/elon-musk2.png" alt="Ilustração de Elon Musk junto a Neuralink.">
-      </div>
-    </div>
+  <!-- BOX "05" (IMAGENS) -->
+  <div class="container03">
+    <div class="box05"></div>
+    <div class="box06"></div>
   </div>
-  <div class="container2">
-    <div class="box2 box8">
+  <!-- BOX "06" (TEXTO) -->
+  <div class="container03">
+    <div class="box03">
       <h4>Procedimentos arriscados podem ser o futuro</h4>
       <p>Tudo que conhecemos poderia mudar, seja com a ajuda de uma inteligência artifícial integrada ou até mesmo a
         idéia de um chip implatado diretamente no cerébro, como já discutido anteriormente pelo famoso dono da Tesla e
@@ -154,22 +126,24 @@
         testados em animais, como porcos e hérbivoros, fazendo com que eles desenvolvessem um tipo de consciência
         durante os dias de teste.</p>
       <br>
-      <p id="T4">Conheça a <a class="disk2" href="https://pt.wikipedia.org/wiki/Neuralink" target="_blank">Neuralink
+      <p>Conheça a <a style="color: var(--cor-link);" href="https://pt.wikipedia.org/wiki/Neuralink"
+          target="_blank">Neuralink
           Society</a>.</p>
       <br>
-      <p>Conheça o gênio <a class="disk2"
+      <p>Conheça o gênio <a style="color: var(--cor-link);"
           href="https://www.star-brasil.com/novidades/quem-e-elon-musk-e-quais-sao-as-principais-invencoes-do-magnata"
           target="_blank">Elon Musk</a>.</p>
       <br>
-      <p>Saiba mais sobre os <a class="disk2"
+      <p>Saiba mais sobre os <a style="color: var(--cor-link);"
           href="https://olhardigital.com.br/2021/12/07/ciencia-e-espaco/elon-musk-quer-implantar-chips-cerebrais-em-humanos-a-partir-de-2022/"
           target="_blank">chips cerebrais</a>.</p>
     </div>
   </div>
-  <div class="container2">
-    <div class="box2">
+  <!-- BOX "07" (TEXTO) -->
+  <div class="container03">
+    <div class="box03">
       <h4>A tecnologia é a nossa principal aliada</h4>
-      <p id="T5">Por volta de 2003, Jorge Fernandes e Francisco Godinho já afirmavam que: "Para a maioria das pessoas, a
+      <p>Por volta de 2003, Jorge Fernandes e Francisco Godinho já afirmavam que: "Para a maioria das pessoas, a
         tecnologia torna a vida mais fácil. Para uma pessoa com necessidades especiais, a tecnologia torna as coisas
         possíveis". Se for aplicada esta afirmativa ao contexto da web, é possível concluir que uma pessoa com
         deficiência deveria acessar a web em melhores condições, já que tem mais dificuldade para acessar essas mesmas
@@ -178,8 +152,9 @@
         e com muita estimulação. </p>
     </div>
   </div>
-  <div class="container2">
-    <div class="box2">
+  <!-- BOX "07" (TEXTO) -->
+  <div class="container03">
+    <div class="box03">
       <h4>O cuidado por uma página a torna acessivel</h4>
       <p>Especialistas dizem que páginas bem feitas desde o começo da criação até o final possuem pelo menos um nível
         "básico" de acessibilidade, pois assim mais pessoas irão ter acesso, dessa forma aumentando o engajamento da
@@ -197,49 +172,42 @@
           href="https://www.w3schools.com/html/html_accessibility.asp" target="_blank">HTML acessibility</a>.</p>
     </div>
   </div>
-
-  <div class="container">
-    <div class="row01">
-      <div class="box box7">
-        <img src="imagens/icones-acessiveis.png" alt="Ícones de acessibilidade.">
-        <img id="T6" src="imagens/maosdigitando.png" alt="Pessoa utilizando notebook.">
-      </div>
-    </div>
+  <!-- BOX "08" (IMAGENS) -->
+  <div class="container01">
+    <div class="box01 box07"></div>
+    <div class="box02 box08"></div>
   </div>
-  <div class="container2">
-    <div class="box2 box7">
+  <!-- BOX "09" (TEXTO) -->
+  <div class="container03">
+    <div class="box03 box09">
       <h4>Como pessoas com deficiência utilizam a Web?</h4>
       <p> &#10143 Indivíduos cegos:</p>
-      <p class="disk">utilizam leitores de tela.</p>
+      <p style="color: var(--cor-destaque);">utilizam leitores de tela.</p>
       <br>
       <p> &#10143 Indivíduos cegos e sem braços:</p>
-      <p class="disk">utilizam um programa de reconhecimento de voz para receber retorno a partir
+      <p style="color: var(--cor-destaque);">utilizam um programa de reconhecimento de voz para receber retorno a partir
         do
         leitor.</p>
       <br>
       <p> &#10143 Indivíduos com paralisia cerebral:</p>
-      <p class="disk">normalmente só utilizam um dedo para clicar.</p>
+      <p style="color: var(--cor-destaque);">normalmente só utilizam um dedo para clicar.</p>
       <br>
       <p> &#10143 Indivíduos com deficiência motora:</p>
-      <p class="disk">nesse caso é necessário o uso de um mouse adaptado.</p>
+      <p style="color: var(--cor-destaque);">nesse caso é necessário o uso de um mouse adaptado.</p>
       <br>
       <p> &#10143 Indivíduos tetraplégicos:</p>
-      <p class="disk">utilizam apenas um ponteiro na cabeça.</p>
+      <p style="color: var(--cor-destaque);">utilizam apenas um ponteiro na cabeça.</p>
       <br>
       <p> &#10143 Indivíduos surdocegos:</p>
-      <p class="disk">utilizam um dispositivo que mostra em Braille as informações exibidas na
+      <p style="color: var(--cor-destaque);">utilizam um dispositivo que mostra em Braille as informações exibidas na
         tela.</p>
       <br>
       <p> &#10143 Indivíduos com baixa visão:</p>
-      <p class="disk">fazem uso de programas para ampliar a tela.</p>
+      <p style="color: var(--cor-destaque);">fazem uso de programas para ampliar a tela.</p>
       <br>
       <p> &#10143 Indivíduos com dificuldade de leitura:</p>
-      <p class="disk">usam ferramentas para realçar o texto que aparce na tela.</p>
+      <p style="color: var(--cor-destaque);">usam ferramentas para realçar o texto que aparce na tela.</p>
     </div>
-  </div>
-  <div>
-    <br><br><br><br><br><br><br>
-    <p id="agradecimentos"><b>Obrigado por ver até aqui.</b></p>
   </div>
 </body>
 

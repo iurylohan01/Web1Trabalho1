@@ -1,3 +1,4 @@
+/* PALETA DE CORES */
 :root{
   --cor-fundo: #ffffff;
   --cor-primaria: #14161b;
@@ -5,9 +6,9 @@
   --cor-destaque: rgb(233,232,78);
   --cor-link: rgb(244, 186, 66);
 }
-
+/* MENU, DROPMENU, ICON */
 #home1{
-  background: rgb(233,232,78);
+   background: rgb(233,232,78);
 background: linear-gradient(90deg, rgba(233,232,78,1) 0%, rgba(251,149,90,1) 100%); ;
   position: relative;
   display: inline-block;
@@ -47,7 +48,7 @@ background: linear-gradient(90deg, rgba(233,232,78,1) 0%, rgba(251,149,90,1) 100
   transition: .3s;
   
 }
-
+/* CSS DO SUBMENU (ALTERAR FÁCIL) */
 .dropmenuu ul ul{
   display: none;
   position: absolute;
@@ -64,7 +65,7 @@ background: linear-gradient(90deg, rgba(233,232,78,1) 0%, rgba(251,149,90,1) 100
 .dropmenuu ul ul li a{
   display: block;
 }
-
+/* CSS PARA FIXAR O MENU E DIMENSIONAR*/
 #drop1{
   position: fixed;
   right: 0;
@@ -83,6 +84,7 @@ background: linear-gradient(90deg, rgba(233,232,78,1) 0%, rgba(251,149,90,1) 100
   height: 34px;
   line-height: 40px;
 }
+/* CSS DO COMEÇO DO SITE */
 body{
   background:#14161bff;
   font-family: Inter,Helvetica,Arial,sans-serif;
@@ -95,7 +97,7 @@ body{
   -webkit-text-fill-color: transparent;
   text-align: center;
   font-size: 500%;
-  margin-top: 6vw;
+  margin-top: 1.5em;
 }
 #home1 > a{
   padding-left: .0.06em;
@@ -106,27 +108,40 @@ body{
   margin-top: -2.5em;
   text-align: center;
   font-size: 1.5em;
+  text-shadow: 0px 0px 27px rgba(255, 255, 255, 0.46);
 }
-
-.container{
+/* BOXS 1, 2 (IMAGENS) */
+.container01{
 display: flex;
 justify-content: center;
 }
-.row01{
-  text-align: center;
+.box01{
+width: 42.8vw;
+height: 12em;
+background-image: url("imagens/deficiente-visual3.png");
+background-size: 660px;
+background-repeat: no-repeat;
+background-position: center;
+border-radius: 7px;
+margin-top: 2.9em;
 }
-.box > img{
-  max-width:100%;
-  width: 42.5vw;
-  height: 14vw;
-  border-radius: 7px;
-  margin: .8vw;
+.box02{
+margin-left: 1.3%;
+width: 42.8vw;
+height: 12em;
+background-image: url("imagens/Deficiente-visual2.png");
+background-size: 660px;
+background-repeat: no-repeat;
+background-position: center;
+border-radius: 7px;
+margin-top: 2.9em;
 }
-.container2{
+/* BOX 3 (PURA GAMBIARRA)*/
+.container03{
 display: flex;
 justify-content: center;
 }
-.box2{
+.box03{
 width: 86.7vw;
 height: 12%;
 color: var(--cor-fundo);
@@ -137,68 +152,51 @@ border-width: 1px;
 border-color: rgb(233,232,78);
 margin-top: 1.2em;
 }
-.box2 > h4{
+.box03 > h4{
   font-size: 1.5em;
   margin-left: 1em;
   margin-right: 1em;
   text-align: center;
   margin-top: 0.7em;
 }
-.box2> p{
+.box03> p{
   font-size: 1.2em;
   text-align: left;
   margin-left: 2em;
   margin-right: 2em;
   margin-top: -1em;
 }
-
-.boX6{
-margin-top: 1em;
+/* BOXS 5, 6 (IMAGENS) */
+.box05{
+width: 57.7vw;
+height: 12em;
+background-image: url("imagens/elon-musk1.png");
+background-size: 800px;
+background-repeat: no-repeat;
+background-position: center;
+border-radius: 7px;
+margin-top: 1.2em;
 }
-.box7{
-margin-top: .5em;
+.box06{
+margin-left: 1.3%;
+width: 28vw;
+height: 12em;
+background-image: url("imagens/elon-musk2.png");
+background-size: 700px;
+background-repeat: no-repeat;
+background-position: center;
+border-radius: 7px;
+margin-top: 1.2em;
 }
-.box8{
-  margin-top: .3em;
+/* BOXS 7, 8, 9 (IMAGENS, TEXTO)*/
+.box07{
+background-image: url("imagens/icones-acessiveis.png");
+margin-top: 1.5em;
 }
-
-.disk{
-  color: var(--cor-destaque);
+.box08{
+background-image: url("imagens/maosdigitando.png");
+margin-top: 1.5em;
 }
-.disk2{
-  color: var(--cor-link);
-}
-
-.sumario{
-  display: flex;
-  justify-content: center;
-  margin-bottom: 4vw;
-  margin-top: 1.5vw;
-  
-}
-.sumario-block2{
-  width: 60vw;
-  height: 108%;
-  color: var(--cor-fundo);
-  background-color: #16181fff;
-  border-radius: 7px;
-  border-style: solid;
-  border-width: 1px;
-  border-color: rgb(233,232,78);
-}
-.sumario-block2 > h3{
-  text-align: center;
-  font-size: 23px;
-}
-.sumario-block2 > a{
-  font-size: 18px;
-  margin-left: 3%;
-  color: var(--cor-destaque);
-}
-#agradecimentos{
-  color: #666d8aff;
-  text-align: center;
-  font-size: 25px;
-  text-shadow: 0px 0px 23px rgba(0, 0, 0, 1);
-  
+.box09{
+margin-top: 1.5em;
 }
